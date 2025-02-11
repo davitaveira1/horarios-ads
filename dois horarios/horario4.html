@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Horários ADS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            table-layout: fixed;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 10px;
+            vertical-align: middle;
+        }
+
+        th {
+            background-color: #666;
+            color: white;
+        }
+
+        .horario {
+            width: 7%;
+        }
+
+        .dia {
+            width: 15%;
+        }
+
+        /* Estilos para cores diferentes */
+        .azul {
+            background-color: #0000FF;
+            color: white;
+        }
+
+        .laranja {
+            background-color: #FFA500;
+            color: black;
+        }
+
+        .rosa {
+            background-color: #FF1493;
+            color: white;
+        }
+
+        .roxo {
+            background-color: #800080;
+            color: white;
+        }
+
+        .branco {
+            background-color: #FFFFFF;
+        }
+
+        /* Ajuste no tamanho da fonte das disciplinas */
+        td {
+            font-size: 0.7em;
+        }
+
+        /* Estilo para reposição em vermelho claro */
+        .vermelho-claro {
+            background-color: #FFCCCC;
+            /* Vermelho claro */
+            color: black;
+        }
+
+        .cinza-claro {
+            background-color: #D3D3D3;
+            /* Cinza claro */
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Links para os Horários</h2>
+
+    <!-- Links para as tabelas -->
+    <ul>
+        <li><a href="/horario2.html">Visualizar horários disponíveis</a></li>
+        <li><a href="/horario3.html">Ir para o horário desta semana (04/11 a 08/11)</a></li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="color: red; font-weight: bold; background-color: yellow;">Horário da semana que vem (11/11 a 15/11)</th>
+            </tr>
+        </thead>
+    </table>
+
+    <h2>Tabela de Horários - ADS 2º PER</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>PERÍODO</th>
+                <th>HORÁRIO</th>
+                <th>SEGUNDA</th>
+                <th>TERÇA</th>
+                <th>QUARTA</th>
+                <th>QUINTA</th>
+                <th>SEXTA</th>
+                <th>SÁBADO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">ADS 2º PER</td>
+                <td>07:00</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="azul">Eng. Soft. EAD<br>Thiane<br>Moodle</td>
+            </tr>
+            <tr>
+                <td>09:00</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="azul">Arquit. EAD<br>Ricardo<br>Moodle</td>
+            </tr>
+            <tr>
+                <td>10:45</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+            </tr>
+            <tr>
+                <td>17:30</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+            </tr>
+            <tr>
+                <td>19:15</td>
+                <!--<td class="rosa">Metodologia<br>Narryma<br>2S-02</td>-->
+                <td class="vermelho-claro">Reposição LLP2<br>Maurilio<br>LAB-104</td>
+                <!--<td class="cinza-claro">Recesso</td>-->
+                <td class="azul">LLP2<br>Maurílio<br>LAB-104</td>
+                <td class="azul">BD I<br>Viviane<br>LAB-102</td>
+                <td class="laranja">Cálculo<br>Ciandra<br>2S-07</td>
+                <td class="azul">Eng. Soft.<br>Thiane<br>LAB-105</td>
+                <td class="branco"></td>
+            </tr>
+            <tr>
+                <td>21:00</td>
+                <td class="azul">LLP2<br>Maurílio<br>LAB-104</td>
+                <!--<td class="cinza-claro">Recesso</td>-->
+                <td class="azul">BD I<br>Viviane<br>LAB-102</td>
+                <td class="vermelho-claro">Reposição LLP2<br>Maurilio<br>LAB-103</td>
+                <!--<td class="rosa">Metodologia<br>Narryma<br>2S-02</td>-->
+                <td class="azul">Arquit.<br>Ricardo<br>LAB-105</td>
+                <td class="laranja">Cálculo<br>Ciandra<br>2S-07</td>
+                <td class="branco"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <h2>Tabela de Horários - ADS 4º PER</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>PERÍODO</th>
+                <th>HORÁRIO</th>
+                <th>SEGUNDA</th>
+                <th>TERÇA</th>
+                <th>QUARTA</th>
+                <th>QUINTA</th>
+                <th>SEXTA</th>
+                <th>SÁBADO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">ADS 4º PER</td>
+                <td>07:00</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="azul">APS II EAD<br>Thiane<br>Moodle</td>
+            </tr>
+            <tr>
+                <td>09:00</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="azul">PRG. WEB II EAD<br>Lynwood<br>Moodle</td>
+            </tr>
+            <tr>
+                <td>10:45</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+            </tr>
+            <tr>
+                <td>17:30</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+            </tr>
+            <tr>
+                <td>19:15</td>
+                <!--<td class="azul">POO II<br>Davi<br>LAB-103</td>-->
+                <!--<td style="color: gray;">Horário disponível</td>-->
+                <td class="vermelho-claro">Reposição ESTATÍSTICA<br>Robson<br>2S-07</td>
+                <!--<td class="cinza-claro">Recesso</td>-->
+                <!--<td class="azul">ED<br>Davi<br>LAB-103</td>-->
+                <!--<td style="color: gray;">Horário disponível</td>-->
+                <td class="vermelho-claro">Reposição ESTATÍSTICA<br>Robson<br>2S-07</td>
+                <td class="azul">REDES<br>Maurílio<br>LAB-103</td>
+                <!--<td style="color: gray;">Horário disponível</td>
+                <td style="color: gray;">Horário disponível</td>-->
+                <td class="laranja">ESTATÍSTICA<br>Robson<br>2S-07</td>
+                <td class="laranja">ESTATÍSTICA<br>Robson<br>2S-07</td>
+                <!--<td class="vermelho-claro">Reposição Redes<br>Maurilio<br>LAB-103</td>
+                <td class="vermelho-claro">Reposição Redes<br>Maurilio<br>LAB-103</td>-->
+                <td class="branco"></td>
+            </tr>
+            <tr>
+                <td>21:00</td>
+                <!--<td class="azul">ED<br>Davi<br>LAB-103</td>-->
+                <!--<td style="color: gray;">Horário disponível</td>-->
+                <td class="vermelho-claro">Reposição ESTATÍSTICA<br>Robson<br>2S-07</td>
+                <!--<td class="cinza-claro">Recesso</td>-->
+                <!--<td class="azul">POO II<br>Davi<br>LAB-103</td>-->
+                <!--<td style="color: gray;">Horário disponível</td>-->
+                <td class="vermelho-claro">Reposição ESTATÍSTICA<br>Robson<br>2S-07</td>
+                <td class="azul">PRG. WEB II<br>Lynwood<br>LAB-104</td>
+                <!--<td style="color: gray;">Horário disponível</td>-->
+                <td class="azul">REDES<br>Maurílio<br>LAB-103</td>
+                <td class="azul">APS II<br>Thiane<br>LAB-101</td>
+                <td class="branco"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+    <h2>Tabela de Horários - ADS 6º PER</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>PERÍODO</th>
+                <th>HORÁRIO</th>
+                <th>SEGUNDA</th>
+                <th>TERÇA</th>
+                <th>QUARTA</th>
+                <th>QUINTA</th>
+                <th>SEXTA</th>
+                <th>SÁBADO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="6">ADS 6º PER</td>
+                <td>07:00</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="azul">GPS EAD<br>ALEXANDRE<br>Moodle</td>
+            </tr>
+            <tr>
+                <td>09:00</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+            </tr>
+            <tr>
+                <td>10:45</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+            </tr>
+            <tr>
+                <td>17:30</td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+                <td class="branco"></td>
+            </tr>
+            <tr>
+                <td>19:15</td>
+                <td class="azul">GPS<br>ALEXANDRE<br>LAB-102</td>
+                <!--<td class="cinza-claro">Recesso</td>-->
+                <!--<td style="color: gray;">Horário disponível</td>-->
+                <td class="azul">GOVERNANÇA<br>ALEXANDRE<br>LAB-102</td>
+                <td style="color: gray;">Horário disponível</td>
+                <td class="azul">IA/ROBÓTICA<br>LYN/ ALE.<br>LAB-104 / LAB-102</td>
+                <!--<td class="vermelho-claro">Reposição PSD<br>Maurilio<br>LAB-104</td>-->
+                <td style="color: gray;">Horário disponível</td>
+                <td class="branco"></td>
+            </tr>
+            <tr>
+                <td>21:00</td>
+                <td class="azul">GOVERNANÇA<br>ALEXANDRE<br>LAB-102</td>
+                <!--<td class="cinza-claro">Recesso</td>-->
+                <td class="azul">PSD<br>MAURILIO<br>LAB-104</td>
+                <td class="azul">ÉTICA<br>ALESSANDRO<br>LAB-102</td>
+                <td class="azul">IA/ROBÓTICA<br>LYN/ ALE.<br>LAB-104 / LAB-102</td>
+                <td style="color: gray;">Horário disponível</td>
+                <td class="branco"></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
